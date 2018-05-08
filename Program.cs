@@ -7,7 +7,7 @@ namespace LatentCoins
     {
         public static void Main(string[] args)
         {
-			int numExperiments = 100;
+			int numExperiments = 1000;
 			int numTrials = 10;
 			double selectProb = 0.7;
 			double biasA = 0.3;
