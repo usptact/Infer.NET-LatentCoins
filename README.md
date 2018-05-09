@@ -9,3 +9,5 @@ The generative model:
 4. Return the m-vector of head counts
 
 The program infers coin "A" and coin "B" biases given that the selector is unobserved. The coin picking probability is inferred as an auxilliary task.
+
+Running the model requires Infer.NET (version 2.7 was used). Note that Infer.NET has its own very restrictive license. Please refer to it for more details.
