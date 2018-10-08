@@ -1,5 +1,4 @@
-﻿using System;
-using MicrosoftResearch.Infer.Distributions;
+﻿using Microsoft.ML.Probabilistic.Distributions;
 
 namespace LatentCoins
 {

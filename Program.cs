@@ -1,5 +1,5 @@
 ﻿using System;
-using MicrosoftResearch.Infer.Distributions;
+using Microsoft.ML.Probabilistic.Distributions;
 
 namespace LatentCoins
 {
@@ -36,6 +36,8 @@ namespace LatentCoins
 			Console.WriteLine("ESTIM select probability = {0}", posteriors.selectorDist.GetMean());
 			Console.WriteLine("ESTIM coin A bias = {0}", posteriors.successADist.GetMean());
 			Console.WriteLine("ESTIM coin B bias = {0}", posteriors.successBDist.GetMean());
+
+            Console.ReadKey();
         }
     }
 }
